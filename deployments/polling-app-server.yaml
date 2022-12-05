@@ -16,7 +16,7 @@ spec:
     spec:                     # Spec for the containers that will be run in the Pods
       containers:
       - name: polling-app-server
-        image: devtraining/server-app:11
+        image: devtraining/server-app:4
         imagePullPolicy: IfNotPresent
         ports:
           - name: http
